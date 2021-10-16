@@ -1,0 +1,136 @@
+header{
+    background-color: white;
+}
+#tituloprincipal{
+    color:white;
+    text-align: center;
+    font-family: Didot, serif;
+    font-size: 30px; 
+    margin-left: 300px; 
+}
+.tatu{
+    width: 200px;  
+    transition-duration: 1s; 
+}
+.tatu:hover{
+    transform: scale(1.1);
+}
+.inicio{
+    display: flex;
+    align-items: center;
+}
+nav{
+    background-color: rgb(31, 26, 21);
+
+}
+.redes{
+    width: 40px;
+    float: right;
+    padding: 4px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.redes:hover{
+    transform: translateY(5px);
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+a:hover{
+    color: rgb(129, 179, 84);
+    border-radius: 60px;
+}
+.ulnav{
+    color: white;
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-evenly;
+    background-color: rgb(219, 190, 59); 
+    padding: 10px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 960px;
+}
+.oqtem{
+    padding: 50px;  
+    margin: 20px;  
+    transition: all 1s cubic-bezier(0,1.36,.78,.78);
+    transition-duration: 2s;
+    font-size: 27px;
+}
+.oqtem:hover{
+    background-color:rgb(219, 190, 59) ;
+}
+.imgentrada{
+    margin:auto;
+    display:block;
+    margin-bottom: 20px;
+    margin-right: 90px;
+}
+.tour{
+    padding: 50px;  
+    margin: 20px;  
+}
+.firstandar{
+    display: flex;
+    font-size: 18px;
+    width: 800px;
+       
+}
+.reptil{
+    height: 230px;
+}
+.reptiltitle{
+    font-size: 15px;
+    
+}
+.reptilp{
+  
+}
+.funcionamento{
+    padding: 50px;  
+    margin: 20px;  
+    transition: all 1s cubic-bezier(0,1.36,.78,.78);
+    transition-duration: 2s;
+    font-size: 20px;
+    font-family: monospace;
+}
+.funcionamento:hover{
+    background-color: rgb(129, 179, 84);
+}
+.ulfooter1{
+    list-style-type: none;
+    text-align: left;
+}
+.ulfooter2{
+    list-style-type: none;
+    text-align: left;
+}
+.ulfooter3{
+    list-style-type: none;
+    text-align: left;
+}
+.ulfooter4{
+    list-style-type: none;
+    text-align: left;
+}
+footer{
+    background-color: rgb(31, 26, 21);
+    color: white;
+    text-align: center;
+    padding: 45px;
+    border-top: 17px solid rgb(219, 190, 59);
+    display: flex;
+    font-family: monospace;
+    font-size: 15px;
+}

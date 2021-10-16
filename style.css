@@ -1,0 +1,179 @@
+header{
+    background-color: white;
+}
+#tituloprincipal{
+    color:white;
+    text-align: center;
+    font-family: Didot, serif;
+    font-size: 30px; 
+    margin-left: 300px; 
+}
+.tatu{
+    width: 200px;  
+    transition-duration: 1s; 
+}
+.tatu:hover{
+    transform: scale(1.1);
+}
+.inicio{
+    display: flex;
+    align-items: center;
+}
+nav{
+    background-color: rgb(31, 26, 21);
+
+}
+.redes{
+    width: 40px;
+    float: right;
+    padding: 4px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.redes:hover{
+    transform: translateY(5px);
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+a:hover{
+    color: rgb(129, 179, 84);
+    border-radius: 60px;
+}
+.ulnav{
+    color: white;
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-evenly;
+    background-color: rgb(219, 190, 59); 
+    padding: 10px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 960px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.oqmuseu{
+    padding: 50px;  
+    margin: 20px;  
+    transition: all 1s cubic-bezier(0,1.36,.78,.78);
+    transition-duration: 2s;
+}
+.oqmuseu:hover{
+    background-color: rgb(129, 179, 84);
+}
+.conhecendoomuseuvideo{
+    display: block;
+    margin: 20px;
+    padding: 60px;
+    padding-top: 20px;
+    transition: all 1s cubic-bezier(0,1.36,.78,.78);
+    transition-duration: 2s;
+}
+.conhecendoomuseuvideo:hover{
+    background-color: rgb(219, 190, 59);
+}
+.titulovideo{
+    text-align: center;   
+}
+.notícias{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgherb{
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.imgzoom{
+    transition: all 0.3s;
+    width: 450px;
+    height: 318px;
+}
+.imgzoom:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.tituloherb{
+    position: absolute;
+    left: 0px; ;
+    bottom: 0px;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-shadow: 5px 5px 4px black;
+}
+.imgumanoite{
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.imgzoom2{
+    transition: all 0.3s;
+    width: 450px;
+    height: 318px;
+    margin-left: 16px;
+}
+.imgzoom2:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.tituloumanoite{
+    position: absolute;
+    left: 0px; ;
+    bottom: 0px;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-shadow: 5px 5px 4px black;  
+    margin-left: 16px;
+}
+.ulfooter1{
+    list-style-type: none;
+    text-align: left;
+}
+.ulfooter2{
+    list-style-type: none;
+    text-align: left;
+}
+.ulfooter3{
+    list-style-type: none;
+    text-align: left;
+}
+.ulfooter4{
+    list-style-type: none;
+    text-align: left;
+}
+footer{
+    background-color: rgb(31, 26, 21);
+    color: white;
+    text-align: center;
+    padding: 45px;
+    border-top: 17px solid rgb(219, 190, 59);
+    display: flex;
+    font-family: monospace;
+    font-size: 15px;
+}
+iframe {
+    margin:auto;
+    display:block;
+}
